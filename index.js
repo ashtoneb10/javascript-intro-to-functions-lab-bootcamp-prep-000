@@ -10,4 +10,10 @@ function logShout(string) {
   console.log(string.toUpperCase())
 }
 
-function sayHitoGrandma
+function sayHitoGrandma(string) {
+  if(string.toUppercase() === string) {
+    return "I can't hear you!"
+  } if(string.toLowerCase() === string) {
+    return "YES INDEED!"
+  }
+}
